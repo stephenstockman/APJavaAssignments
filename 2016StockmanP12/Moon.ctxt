@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Moon()
+comment1.params=nam\ mat\ rad\ den\ alt
+comment1.target=Moon(java.lang.String,\ java.lang.String,\ double,\ double,\ double)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=double\ getAltitude()
+comment4.params=alt
+comment4.target=void\ setAltitude(double)
+comment5.params=
+comment5.target=double\ getVolume()
+comment6.params=
+comment6.target=double\ getMass()
+comment7.params=
+comment7.target=double\ getForce()
+comment8.params=
+comment8.target=double\ getPeriod()
+numComments=9
