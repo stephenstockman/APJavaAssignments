@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=main\ asks\ for\ 10\ user\ inputted\ numbers\ and\ \r\n\ determines\ if\ they\ are\ odd,even,\ or\ negative\r\n\ then\ puts\ them\ in\ their\ own\ respective\ array.\r\n
+numComments=1

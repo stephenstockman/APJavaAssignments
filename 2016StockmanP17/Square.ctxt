@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Square()
+comment0.text=\r\n\ default\ constructor\r\n
+comment1.params=val
+comment1.target=Square(char)
+comment1.text=\r\n\ constructor\ \r\n\ @param\ char\r\n
+comment2.params=
+comment2.target=char\ getSquareValue()
+comment2.text=\r\n\ get\ value\ of\ square\r\n
+comment3.params=val
+comment3.target=void\ setSquareValue(char)
+comment3.text=\r\nset\ square\ value\r\n@param\ char\r\n
+comment4.params=
+comment4.target=boolean\ hasPenny()
+comment4.text=\r\n\ determine\ if\ penny\ is\ on\ mark\r\n
+comment5.params=
+comment5.target=void\ setPenny()
+comment5.text=\r\n\ set\ penny\ to\ true\r\n
+numComments=6
