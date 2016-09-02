@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=insGUI()
+comment1.params=evt
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.params=e
+comment2.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment3.params=
+comment3.target=void\ init()
+comment3.text=\r\n\ sets\ JFrame\ settings\ and\ makes\ it\ visible\r\n
+comment4.params=evt
+comment4.target=void\ okPressed(java.awt.event.ActionEvent)
+comment4.text=\r\n\ @param\ evt\ an\ ActionEvent\ that\ signals\ that\ the\ ok\ button\ was\ pressed\r\n\ opens\ gamegui\ when\ ok\ is\ pressed\r\n
+numComments=5

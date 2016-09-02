@@ -1,0 +1,155 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class insGUI extends JFrame {
+    private JLabel easyLabel;
+    private JLabel exitLabel;
+    private JLabel hardLabel;
+    private JLabel medLabel;
+    private JLabel newLabel;
+    private JButton okButton;
+    private JLabel simLabel;
+    private JLabel welLabel;
+    private JLabel youLabel;
+    private boolean init=false;
+
+    //Constructor 
+    public insGUI(){
+
+        this.setTitle("instructions");
+        this.setSize(500,400);
+
+        //pane with null layout
+        JPanel contentPane = new JPanel(null);
+        contentPane.setPreferredSize(new Dimension(500,400));
+        contentPane.setBackground(new Color(220,220,220));
+
+        easyLabel = new JLabel();
+        easyLabel.setBounds(25,155,90,35);
+        easyLabel.setBackground(new Color(214,217,223));
+        easyLabel.setForeground(new Color(0,0,0));
+        easyLabel.setEnabled(true);
+        easyLabel.setFont(new Font("sansserif",0,12));
+        easyLabel.setText("easy");
+        easyLabel.setVisible(true);
+
+        exitLabel = new JLabel();
+        exitLabel.setBounds(5,305,90,35);
+        exitLabel.setBackground(new Color(214,217,223));
+        exitLabel.setForeground(new Color(0,0,0));
+        exitLabel.setEnabled(true);
+        exitLabel.setFont(new Font("sansserif",0,12));
+        exitLabel.setText("exit");
+        exitLabel.setVisible(true);
+
+        hardLabel = new JLabel();
+        hardLabel.setBounds(25,205,90,35);
+        hardLabel.setBackground(new Color(214,217,223));
+        hardLabel.setForeground(new Color(0,0,0));
+        hardLabel.setEnabled(true);
+        hardLabel.setFont(new Font("sansserif",0,12));
+        hardLabel.setText("hard");
+        hardLabel.setVisible(true);
+
+        medLabel = new JLabel();
+        medLabel.setBounds(25,180,90,35);
+        medLabel.setBackground(new Color(214,217,223));
+        medLabel.setForeground(new Color(0,0,0));
+        medLabel.setEnabled(true);
+        medLabel.setFont(new Font("sansserif",0,12));
+        medLabel.setText("med");
+        medLabel.setVisible(true);
+
+        newLabel = new JLabel();
+        newLabel.setBounds(5,255,90,35);
+        newLabel.setBackground(new Color(214,217,223));
+        newLabel.setForeground(new Color(0,0,0));
+        newLabel.setEnabled(true);
+        newLabel.setFont(new Font("sansserif",0,12));
+        newLabel.setText("new");
+        newLabel.setVisible(true);
+
+        okButton = new JButton();
+        okButton.setBounds(200,360,90,35);
+        okButton.setBackground(new Color(214,217,223));
+        okButton.setForeground(new Color(0,0,0));
+        okButton.setEnabled(true);
+        okButton.setFont(new Font("sansserif",0,12));
+        okButton.setText("OK");
+        okButton.setVisible(true);
+        //Set action for button click
+        //Call defined method
+        okButton.addActionListener(new ActionListener() {
+                public void actionPerformed(ActionEvent evt) {
+                    okPressed(evt);
+                }
+            });
+
+        simLabel = new JLabel();
+        simLabel.setBounds(5,55,500,35);
+        simLabel.setBackground(new Color(214,217,223));
+        simLabel.setForeground(new Color(0,0,0));
+        simLabel.setEnabled(true);
+        simLabel.setFont(new Font("sansserif",0,12));
+        simLabel.setText("sim");
+        simLabel.setVisible(true);
+
+        welLabel = new JLabel();
+        welLabel.setBounds(5,5,200,35);
+        welLabel.setBackground(new Color(214,217,223));
+        welLabel.setForeground(new Color(0,0,0));
+        welLabel.setEnabled(true);
+        welLabel.setFont(new Font("sansserif",0,12));
+        welLabel.setText("Welcome to WordGuess!");
+        welLabel.setVisible(true);
+
+        youLabel = new JLabel();
+        youLabel.setBounds(5,105,90,35);
+        youLabel.setBackground(new Color(214,217,223));
+        youLabel.setForeground(new Color(0,0,0));
+        youLabel.setEnabled(true);
+        youLabel.setFont(new Font("sansserif",0,12));
+        youLabel.setText("you");
+        youLabel.setVisible(true);
+
+        //adding components to contentPane panel
+        contentPane.add(easyLabel);
+        contentPane.add(exitLabel);
+        contentPane.add(hardLabel);
+        contentPane.add(medLabel);
+        contentPane.add(newLabel);
+        contentPane.add(okButton);
+        contentPane.add(simLabel);
+        contentPane.add(welLabel);
+        contentPane.add(youLabel);
+
+        //adding panel to JFrame and seting of window position and close operation
+        this.add(contentPane);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setLocationRelativeTo(null);
+        this.pack();
+        this.setVisible(true);
+    }
+
+    //Method actionPerformed for okButton
+    private void okPressed (ActionEvent evt) {
+        //TODO
+        if(gameGUI.open == false)
+        {
+            gameGUI gamegui = new gameGUI();
+            init=true;
+        }
+        this.setVisible(false);
+    }
+
+    public static void main(String[] args){
+        System.setProperty("swing.defaultlaf", "com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel");
+        javax.swing.SwingUtilities.invokeLater(new Runnable() {
+                public void run() {
+                    new insGUI();
+                }
+            });
+    }
+
+}

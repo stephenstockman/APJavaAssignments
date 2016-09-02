@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Square()
+comment1.params=xp\ yp\ sl
+comment1.target=Square(double,\ double,\ double)
+comment2.params=p
+comment2.target=void\ draw(TurtleGraphics.Pen)
+comment3.params=
+comment3.target=double\ area()
+numComments=4

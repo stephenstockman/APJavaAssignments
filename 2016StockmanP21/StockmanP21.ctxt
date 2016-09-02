@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=s
+comment1.target=int\ numWords(java.lang.String)
+comment2.params=s
+comment2.target=float\ aveLength(java.lang.String)
+comment3.params=s\ c
+comment3.target=int\ numChar(java.lang.String,\ char)
+comment4.params=s
+comment4.target=java.lang.String\ killSpace(java.lang.String)
+numComments=5

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Spiral()
+comment1.params=xp\ yp\ r\ nl
+comment1.target=Spiral(double,\ double,\ double,\ double)
+comment2.params=p
+comment2.target=void\ draw(TurtleGraphics.Pen)
+numComments=3

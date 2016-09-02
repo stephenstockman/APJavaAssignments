@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=sideLength\ first\ diff
+comment0.target=int[]\ createArithmeticSeq(int,\ int,\ int)
+comment1.params=someList
+comment1.target=int[][]\ matricize(int[])
+comment2.params=someMatrix
+comment2.target=void\ printMatrix(int[][])
+comment3.params=someMatrix
+comment3.target=int[][]\ reverseDiagonal(int[][])
+comment4.params=someMatrix
+comment4.target=boolean\ magicCheck(int[][])
+numComments=5

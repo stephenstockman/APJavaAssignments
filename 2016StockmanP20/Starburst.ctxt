@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Starburst()
+comment1.params=xp\ yp\ r\ ns
+comment1.target=Starburst(double,\ double,\ double,\ double)
+comment2.params=p
+comment2.target=void\ draw(TurtleGraphics.Pen)
+numComments=3
